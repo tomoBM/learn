@@ -1,3 +1,7 @@
+.container-fluid{
+	text-stroke: 1px white;
+}
+
 .cover-img {
 	height: 600px;
 	display: table;
