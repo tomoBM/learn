@@ -1,0 +1,63 @@
+.cover-img {
+	height: 600px;
+	display: table;
+	width: 100%;
+	background-size: cover;
+}
+
+/* ワイドスクリーン用のCSS */
+@media only screen and (min-width: 1500px) {
+	.cover-img {
+		height: 800px;
+	}
+}
+
+/* タブレット用のCSS */
+@media only screen and (min-width : 768px) and (max-width : 1200px) {
+	.cover-img {
+		height: 500px;
+	}
+}
+
+/* スマホ用のCSS */
+@media only screen and (max-width: 479px) {
+	.cover-img {
+		height: 300px;
+	}
+}
+
+.cover-text {
+	display: table-cell;
+	vertical-align: top;
+  text-align: center;
+}
+
+.cover-text>p{
+  display: ;
+  vertical-align: text-bottom;
+  text-align: right;
+  font-size: xx-large;
+}
+
+.last{
+	display: flex;
+	justify-content: center;
+}
+
+.com{
+	color: white;
+	background-color: teal;
+	padding: 10px;
+	margin: 10px;
+	width: 320px;
+	height: 100px;
+	line-height: 90px;
+	text-align: center;
+	border-radius: 20px;
+	align-self: center;
+}
+
+h2{
+	padding: 10px;
+	margin: 10px;
+}
