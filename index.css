@@ -10,6 +10,9 @@
 	.cover-img {
 		height: 800px;
 	}
+	.container-fluid h2{
+		text-size:50px;
+	}
 }
 
 /* タブレット用のCSS */
@@ -17,6 +20,7 @@
 	.cover-img {
 		height: 500px;
 	}
+	
 }
 
 /* スマホ用のCSS */
@@ -24,12 +28,16 @@
 	.cover-img {
 		height: 300px;
 	}
+	.cover-text {
+	font-size: 30px;
+	}
 }
 
 .cover-text {
 	display: table-cell;
 	vertical-align: top;
-  text-align: center;
+  	text-align: center;
+	font-size: 90px;
 }
 
 .cover-text>p{
