@@ -1,0 +1,148 @@
+
+
+.top-wrapper{
+  height: 400px;
+}
+.top-wrapper h1{
+  font-size: 50px;
+}
+.top-wrapper p{
+  font-size: 30px;
+}
+.nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.aboutUs img{
+  width: 90%;
+  padding: 0 10% 5% 10%;
+/* background-color: rgba(123, 144, 210, 0.3); */
+}
+.brandan {
+  width: 40%;
+}
+
+.tomo{
+  width: 40%;
+/* background-color:rgba(123, 144, 210, 0.3); */
+}
+
+
+.box{
+  width: 40.5%;
+}
+
+.main h2{
+  /* margin: 30px; */
+  text-align: center;
+  font-size: 50px;
+  /* background-color:rgba(123, 144, 210, 0.3); */
+  font-family: 'Segoe Script','Snell Roundhand',sans-serif;
+  /* content: url(../image/leaf.png); */
+}
+
+.main h2:after {
+  content: '';/*何も入れない*/
+  display: inline-block;/*忘れずに！*/
+  width: 80px;/*画像の幅*/
+  height: 80px;/*画像の高さ*/
+  background-image: url(../image/leaf3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  transform: scale(-1, 1);
+}
+.main h2:before {
+  content: '';/*何も入れない*/
+  display: inline-block;/*忘れずに！*/
+  width: 80px;/*画像の幅*/
+  height: 80px;/*画像の高さ*/
+  background-image: url(../image/leaf3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  transform: scale(1, 1);
+}
+
+
+
+
+/* スマホ用 */
+@media screen and (max-width:600px){
+  body{
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .top-wrapper{
+    height:300px;
+  }
+
+  .container h1{
+    font-size: 40px;
+  }
+  .container p{
+    font-size: 24px;
+  }
+  #home{
+    display: none;
+  }
+
+  #bratomo {
+    display: none;
+  }
+  .brandan{
+    width: 90%;
+  /* background-color: rgba(123, 144, 210, 0.3); */
+  }
+  
+  .tomo{
+    width: 90%;
+  /* background-color:rgba(123, 144, 210, 0.3); */
+  }
+  
+  
+  .box{
+    width: 90%;
+  }
+  .gallery{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .main h2{
+    /* margin: 30px; */
+    text-align: center;
+    font-size: 30px;
+    /* background-color:rgba(123, 144, 210, 0.3); */
+    font-family: 'Segoe Script','Snell Roundhand',sans-serif;
+    /* content: url(../image/leaf.png); */
+  }
+
+  .main h2:after {
+    content: '';/*何も入れない*/
+    display: inline-block;/*忘れずに！*/
+    width: 50px;
+    height: 50px;/*画像の高さ*/
+    background-image: url(../image/leaf3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    
+  }
+  .main h2:before {
+    content: '';/*何も入れない*/
+    display: inline-block;/*忘れずに！*/
+    width: 50px;/*画像の幅*/
+    height: 50px;/*画像の高さ*/
+    background-image: url(../image/leaf3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    
+  }
+
+}
+
